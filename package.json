@@ -18,11 +18,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+    "ios": "react-native run-ios",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build": "",
+    "test:e2e":"npm run test",
+    "test:e2e:build":"npm run build"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
