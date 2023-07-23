@@ -13,7 +13,7 @@ import regulation from "../assets/complaince.png";
 import economy from "../assets/economy.jpg";
 import bycatch from "../assets/bycatch.jpg";
 import tech from "../assets/tech.jpg";
-import Footer from "./Footer";
+
 
 const Challenges = () => {
   const challenges = [
